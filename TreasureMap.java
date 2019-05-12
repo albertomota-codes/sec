@@ -56,7 +56,7 @@ public class TreasureMap {
 		for (int i = 0; i <tamano; i++){
 			for (int j = 0; j <tamano; j++){
 				if(mapa[i][j] == null ){
-					mapa[i][j] = (1+aleatorio.nextInt(3)) + "" + (1+aleatorio.nextInt(3));
+					mapa[i][j] = (1+aleatorio.nextInt(tamano)) + "" + (1+aleatorio.nextInt(tamano));
 				}
 			}
 		}
